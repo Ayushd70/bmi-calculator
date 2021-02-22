@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'constant.dart';
+import '../constant.dart';
 
 class BottomButton extends StatelessWidget {
   BottomButton({@required this.onTap, @required this.buttonTitle});

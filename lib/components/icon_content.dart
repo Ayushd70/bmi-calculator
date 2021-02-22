@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'constant.dart';
+import '../constant.dart';
 
 class IconContent extends StatelessWidget {
   IconContent({@required this.icon, @required this.label});
