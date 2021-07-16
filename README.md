@@ -2,6 +2,16 @@
 
 BMI Calculator is a cross platform application where people can check there BMI easily.
 
+## Screenshots
+
+<p align="center">
+  <img width="32%" src="screenshots/home.PNG?raw=true">
+  <img width="32%" src="screenshots/result.PNG?raw=true">
+  <img width="32%" src="screenshots/result_2.PNG?raw=true">
+  <img width="32%" src="screenshots/result_3.PNG?raw=true">
+
+</p>
+
 ## Plugins
 
 **Table of contents:**
@@ -29,7 +39,7 @@ Then run the following commands
 Clone the project
 
 ```bash
-  git clone https://github.com/derpLLC/bmi-calculator
+  git clone https://github.com/Ayushd70/bmi-calculator
 ```
 
 Go to the project directory
@@ -46,7 +56,7 @@ Run the app
 
 ## Issues
 
-Please file issues, bugs, or feature requests in our [issue tracker](https://github.com/derpLLC/bmi-calculator/issues/new/choose).
+Please file issues, bugs, or feature requests in our [issue tracker](https://github.com/Ayushd70/bmi-calculator/issues/new/choose).
 
 ## License
 
