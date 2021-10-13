@@ -40,6 +40,7 @@ class _InputPageState extends State<InputPage> {
             child: Row(
               children: <Widget>[
                 Expanded(
+                  key: Key('reusableCard_gender_male'),
                   child: ReusableCard(
                     onPress: () {
                       setState(() {
@@ -56,6 +57,7 @@ class _InputPageState extends State<InputPage> {
                   ),
                 ),
                 Expanded(
+                  key: Key('reusableCard_gender_female'),
                   child: ReusableCard(
                     onPress: () {
                       setState(() {
@@ -73,6 +75,7 @@ class _InputPageState extends State<InputPage> {
             ),
           ),
           Expanded(
+            key: Key('reusableCard_height'),
             child: ReusableCard(
               colour: kActiveCardColour,
               cardChild: Column(
@@ -109,6 +112,7 @@ class _InputPageState extends State<InputPage> {
                           RoundSliderOverlayShape(overlayRadius: 30.0),
                     ),
                     child: Slider(
+                      key: Key('reusableCard_height_slider'),
                       value: height.toDouble(),
                       min: kMinHeight,
                       max: kMaxHeight,
@@ -124,6 +128,7 @@ class _InputPageState extends State<InputPage> {
             ),
           ),
           Expanded(
+            key: Key('reusableCard_weight'),
             child: Row(
               children: <Widget>[
                 Expanded(
@@ -169,6 +174,7 @@ class _InputPageState extends State<InputPage> {
                   ),
                 ),
                 Expanded(
+                  key: Key('reusableCard_age'),
                   child: ReusableCard(
                     colour: kActiveCardColour,
                     cardChild: Column(
